@@ -24,16 +24,17 @@ public class Main {
         hashset.add(listaDeCachorros.get(0));
 
 
-        System.err.println("###atividade");
+        System.out.println("###atividade");
         var dogmap = new HashMap<String, Cachorro>();
         for(Cachorro c : listaDeCachorros) {
             dogmap.put(c.getNome(), c);
         }
 
         for(Cachorro c : dogmap.values()) {
-            System.err.println(c);
+            System.out.println(c);
         }
 
-        System.err.println(listaDeCachorros.get(0).hashCode());
+        System.out.println(listaDeCachorros.get(0).hashCode());
+        
     }
 }
