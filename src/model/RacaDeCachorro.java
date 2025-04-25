@@ -1,6 +1,7 @@
 package model;
 
 public enum RacaDeCachorro {
+
     VIRA_LATA,
     BORDER_COLLIE,
     JACK_RUSSEL,
@@ -9,7 +10,8 @@ public enum RacaDeCachorro {
     GOLDEN,
     PINCHER,
     PUG,
-    BORZOI;
+    BORZOI,
+    QUASE_NADA,
+    BUFOS_REGULARIS
 
-    static final RacaDeCachorro ULTIMA_RACA = RacaDeCachorro.BORZOI;
 }
